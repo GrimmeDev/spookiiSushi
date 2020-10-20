@@ -17,7 +17,7 @@ To make a reservation you would click the "Make Reservation" button. If any tabl
 ### License
 MIT
 ### Collaborators
-[![GitHub Link](https://img.shields.io/badge/Github-Aminadab93-yellowgreen.svg)](https://github.com/Aminadab93) [![GitHub Link](https://img.shields.io/badge/Github-durandre-yellowgreen.svg)](https://github.com/durandre) [![GitHub Link](https://img.shields.io/badge/Github-ejkennelly-yellowgreen.svg)](https://github.com/ejkennelly) [![GitHub Link](https://img.shields.io/badge/Github-marykathryn0-yellowgreen.svg)](https://github.com/marykathryn0) [![GitHub Link](https://img.shields.io/badge/Github-myra-yellowgreen.svg)](https://github.com/myra) [![GitHub Link](https://img.shields.io/badge/Github-r-yellowgreen.svg)](https://github.com/r) 
+[![GitHub Link](https://img.shields.io/badge/Github-Aminadab93-yellowgreen.svg)](https://github.com/Aminadab93) [![GitHub Link](https://img.shields.io/badge/Github-durandre-yellowgreen.svg)](https://github.com/durandre) [![GitHub Link](https://img.shields.io/badge/Github-ejkennelly-yellowgreen.svg)](https://github.com/ejkennelly) [![GitHub Link](https://img.shields.io/badge/Github-marykathryn0-yellowgreen.svg)](https://github.com/marykathryn0) [![GitHub Link](https://img.shields.io/badge/Github-myrar-yellowgreen.svg)](https://github.com/myra-r)
 ### Testing
 
 #### Questions?
