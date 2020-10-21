@@ -50,11 +50,13 @@ app.get("/api/waitlist", (req, res) => {
     res.json(waitList);
 })
 // clears tables
-app.delete("/clear", (req, res) => {
+app.post("/api/clear", (req, res) => {
     tables.length = 0; //empties entire tables array
+    // redisplays tables.html(?)
+    res.sendFile(path.join(__dirname, "/public/tables.html"));
 });
 // Takes in answers from RESERVE FORM and submits to the waitList
-app.post("/reserve", (req, res) => {
+app.post("/api/tables", (req, res) => {
     // ADD IN NEW RESERVATION
     // Based on FORM the user can edit
     var newReserve = req.body;
