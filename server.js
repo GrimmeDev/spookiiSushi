@@ -43,12 +43,16 @@ app.get("/reserve", (req, res) => {
 });
 // displays raw data of tables
 app.get("/api/tables", (req, res) => {
-    res.send(tables);
+    res.json(tables);
 });
 // displays raw data of waitlist
-app.get("/api/waitlist",(req,res)=>{
-    res.send(waitList);
+app.get("/api/waitlist", (req, res) => {
+    res.json(waitList);
 })
+// clears tables
+app.delete("/clear", (req, res) => {
+    tables.length = 0; //empties entire tables array
+});
 // Takes in answers from RESERVE FORM and submits to the waitList
 app.post("/reserve", (req, res) => {
     // ADD IN NEW RESERVATION
