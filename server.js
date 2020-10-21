@@ -29,16 +29,16 @@ var waitList = [
 
 // ROUTES
 // Displays HOME page only
-app.get("/public", (req, res) => {
-    res.sendFile(path.join(__dirname, "home.html"));
+app.get("/", (req, res) => {
+    res.sendFile(path.join(__dirname, "/public/home.html"));
 });
 // Displays TABLE and WAITLIST only
 app.get("/tables", (req, res) => {
-    res.sendFile(path.join(__dirname, "tables.html"));
+    res.sendFile(path.join(__dirname, "/public/tables.html"));
 })
 // Displays RESERVE form only
 app.get("/reserve", (req, res) => {
-    res.sendFile(path.join(__dirname, "reserve.html"));
+    res.sendFile(path.join(__dirname, "/public/reserve.html"));
 })
 // Takes in answers from RESERVE FORM and submits to the waitList
 app.post("/reserve", (req, res) => {
